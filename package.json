@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run expose\"",
+    "server": "nodemon --exec babel-node server.js",
+    "expose": "ngrok http 5000 --subdomain api-officeshed5000-org"
+  },
+  "dependencies": {
+    "@ringcentral/sdk": "^4.7.3",
+    "concurrently": "^7.6.0",
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20",
+    "ringcentral": "^3.3.0"
+  }
+}
