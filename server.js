@@ -63,7 +63,6 @@ async function subscribe_for_notification() {
             // '/restapi/v1.0/account/~/extension/~/telephony/sessions',
             // '/restapi/v1.0/account/~/extension/~/incoming-call-pickup',
             // '/restapi/v1.0/account/~/extension/~/telephony/sessions?direction=Inbound',
-            
             '/restapi/v1.0/account/~/telephony/sessions',
         ],
         deliveryMode: {
